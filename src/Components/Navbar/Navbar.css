@@ -79,6 +79,7 @@ body{
   }
 
   .open .mobile-menu{
+    height: 100vh;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -88,7 +89,6 @@ body{
   }
 
   .mobile-menu{
-    /* border: 1px solid; */
     display: none;
     position: absolute;
     top: 60px;
@@ -96,10 +96,11 @@ body{
     height: calc(50vh);
     width: 100%;
     padding: 0;
+    padding-top: 10vh;
   }
 
   .mobile-menu > li{
-    height: 5vh;
+    height: 10vh;
   }
 
   .n-button{

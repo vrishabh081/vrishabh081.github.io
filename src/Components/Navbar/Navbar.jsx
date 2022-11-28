@@ -56,7 +56,7 @@ const Navbar = ()=>
             {/* Home */}
             <div id="home">
                 <h1>Hello, my name is Rishabh Vishwakarma And I'm a Full Stack <span style={{color:"black"}}>Web Developer</span></h1>
-                <img src="https://images.squarespace-cdn.com/content/v1/6102fcfd9ac5253cfa746728/1631062296763-KV4E7DQRI9YKDKXD8IAO/DSC04623-Edit.jpg?format=300w"  alt="" />
+                <img src="https://avatars.githubusercontent.com/u/107476003?v=4"  alt="img" />
             </div>
         </>
     );
