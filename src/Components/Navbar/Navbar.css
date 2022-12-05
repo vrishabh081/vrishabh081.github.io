@@ -1,18 +1,25 @@
-body{
+body, a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(31, 31, 255);
-    color: white;
+    padding: 0;
+    margin: 0;
+    color: #023e49;
+    background-color: rgb(228, 228, 228);
+    text-decoration: none;
 }
 
 .n-wrapper {
     /* border: 1px solid; */
+    position: sticky;
+    background-color: rgb(228, 228, 228);
+    z-index: 1;
+    top: 0;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
-    top: 0;
-    /* background-color: blue; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
   }
+
   .n-left {
     flex: 1;
     align-items: center;
@@ -22,9 +29,10 @@ body{
   }
   
   .n-name {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
+
   .n-right {
     flex: 1;
     display: flex;
@@ -37,6 +45,7 @@ body{
     width: 490px;
     flex: 10;
   }
+
   .n-list > ul {
     list-style: none;
     display: flex;
@@ -47,8 +56,6 @@ body{
   .n-list > ul :hover {
     cursor: pointer;
   }
-
-
   
   #hamburger-icon{
     margin: auto 0;
@@ -59,7 +66,7 @@ body{
   #hamburger-icon div{
     width: 35px;
     height: 3px;
-    background-color: white;
+    background-color: #023e49;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -79,24 +86,24 @@ body{
   }
 
   .open .mobile-menu{
-    height: 100vh;
+    height: 85vh;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: blue;
   }
 
   .mobile-menu{
     display: none;
     position: absolute;
-    top: 60px;
+    top: 1;
     left: 0;
     height: calc(50vh);
     width: 100%;
     padding: 0;
     padding-top: 10vh;
+    background-color: rgb(228, 228, 228);
   }
 
   .mobile-menu > li{
@@ -104,12 +111,13 @@ body{
   }
 
   .n-button{
-    background-color: rgb(31, 31, 255);
-    color: white;
+    margin-right: 2rem;
     font-size: 1.3rem;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    color: #023e49;
+    background-color: rgb(228, 228, 228);
   }
   /* **************  Home  ***************** */
   #home{
@@ -120,15 +128,194 @@ body{
   }
 
   #home>h1{
-    font-size: 5vw;
+    font-size: 3.5vw;
   }
 
   #home>img{
     border-radius: 50%;
     width: 25vw;
+    border: 2px solid #E11D48;
   }
 
-  @media screen and (max-width: 700px) {
+  /* animation home  */
+
+  #home span{
+    font-size: 4.5vw;
+    animation-name: myanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: linear;
+    animation-direction: reverse;
+  }
+  @keyframes myanim{
+    0% {
+      color: #b80028;
+    }
+    10% {
+      color: #E11D48;
+    }
+    20% {
+      color: #e11d47d2;
+    }
+    30% {
+      color: #e11d47a1;
+    }
+    40% {
+      color: #e11d4750;
+    }
+    50% {
+      color: #023e4912;
+    }
+    60% {
+      color: #e11d4750;
+    }
+    70% {
+      color: #e11d47a1;
+    }
+    80% {
+      color: #e11d47d2;
+    }
+    90% {
+      color: #E11D48;
+    }
+    100% {
+      color: #b80028;
+    }
+  }
+
+
+  /* About me section */
+  #about-me{
+    background-color: #023e49;
+    color: whitesmoke;
+    margin: 2vh 0 10vh 0;
+    padding: 5vh 3vw;
+  }
+
+  #about-me > h1, #skills > h1, #contact > h1, #projects > h1{
+    text-align: center;
+    margin-bottom: 7vh;
+    text-decoration: underline;
+    text-underline-offset: 1.5vh;
+    text-decoration-color: #E11D48;
+  }
+
+  #about-me > div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  #about-me> div :nth-child(1){
+    margin-right: 5vw;
+  }
+
+  #about-me> div :nth-child(2){
+    margin-left: 5vw;
+  }
+
+  #about-me> div > img{
+    width: 60%;
+  }
+  
+  #about-me> div > p{
+    font-size: 20px;
+    line-height: 4vh;
+  }
+
+  #about-me span{
+    color: #E11D48;
+  }
+
+
+  /* skilss */
+
+  #skills{
+    margin: 2vh 0 10vh 0;
+  }
+
+  #skills div{
+    text-align: center;
+    border-left: 2px solid #023e49;
+    border-right: 2px solid #023e49;
+  }
+
+  #skills img{
+    background-color: #023e49;
+    padding: 5vh;
+    border-radius: 50%;
+    width: 100px;
+  }
+
+
+  /* projects */
+  #projects{
+    border: 1px solid;
+  }
+
+
+  /* contact */
+  #contact{
+    margin: 2vh 0 10vh 0;
+  }
+
+  #div-form{
+    display: block;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+
+  #div-form  input{
+    display: block;
+
+    width: 30vw;
+    height: 6vh;
+    margin: 2vh auto;
+    border: 1px solid #023e49;
+    border-radius: 5px;
+    color: #E11D48;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #div-form  input::placeholder{
+    color: #023e49;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  #description-msg{
+    padding-bottom: 20vh;
+  }
+
+  #div-form button{
+    display: block;
+    margin: auto;
+    background-color: #023e49;
+    color: white;
+    width: 30.5vw;
+    height: 6vh;
+    border: 1px solid #023e49;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  #contact-ways{
+    font-size: 3rem;
+    margin: 2vw auto;
+    padding: 2vh 7vw;
+    text-align: center;
+  }
+
+  #contact-ways > a{
+    margin: 2vw 2vh;
+  }
+
+
+
+  /* media screen */
+  @media screen and (max-width: 800px) {
     .n-list {
       display: none;
     }
@@ -141,6 +328,7 @@ body{
         display: block;
     }
 
+
     /* Home */
     #home{
       display: block;
@@ -152,7 +340,28 @@ body{
     }
   
     #home>img{
-      border: 3px solid black;
       width: 30vw;
+    }
+
+
+    /* About me section */
+    #about-me> div{
+      display: block;
+      margin: auto;
+    }
+    #about-me> div :nth-child(1){
+      width: 100%;
+    }
+    #about-me> div :nth-child(2){
+      margin-left: 0vw;
+    }
+
+
+    /* Contact */
+    #div-form  input{
+      width: 90%;
+    }
+    #div-form button{
+      width: 90%;
     }
   }

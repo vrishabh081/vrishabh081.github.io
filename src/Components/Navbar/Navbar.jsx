@@ -1,4 +1,6 @@
 import "./Navbar.css";
+import {Link} from "react-scroll";
+
 const Navbar = ()=>
 {
     const toggleMobileMenu = (event)=>
@@ -6,31 +8,25 @@ const Navbar = ()=>
         event.currentTarget.classList.toggle('open');
     }
 
-
     return(
         <>
             <div className="n-wrapper">
-            {/* **********left side********** */}
-            <div className="n-left">
-                <div className="n-name">
-                    Rishabh V
-                </div>
-            </div>
-            
             {/* **********right side********** */}
             <div className="n-right">
                 <div className="n-list">
                     <ul>
-                        <li>Home</li>
-                        <li>About me</li>
-                        <li>Skills</li>
-                        <li>Project</li>
-                        <li>Contact</li>
+                        <li><Link to="home" spy={true} smooth={true}>Home</Link></li>
+                        <li><Link to="about-me" spy={true} smooth={true}>About me</Link></li>
+                        <li><Link to="skills" spy={true} smooth={true}>Skills</Link></li>
+                        <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+                        <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                     </ul>
                 </div>
+                <a target={"blank"} href="https://drive.google.com/file/d/1xNRsBOBiUDKEodIGDfb1yw9utrY-OFbk/view?usp=share_link" download>
                 <button className="n-button">
-                    Resume
+                    Resume<ion-icon name="download-outline"></ion-icon>  
                 </button>
+                </a>
             </div>
 
             {/* ********** Hamburger ********** */}
@@ -39,24 +35,18 @@ const Navbar = ()=>
                 <div className="bar2"></div>
                 <div className="bar3"></div>
                 <ul className="mobile-menu" style={{listStyle:"none"}}>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Project</li>
-                    <li>Contact</li>
-                        <li>
-                        <button className="n-button">
-                        Resume
-                        </button>
+                    <li><Link to="home" spy={true} smooth={true}>Home</Link></li>
+                    <li><Link to="about-me" spy={true} smooth={true}>About me</Link></li>
+                    <li><Link to="skills" spy={true} smooth={true}>Skills</Link></li>
+                    <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+                    <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
+                    <li>
+                        <a target={"blank"} href="https://drive.google.com/file/d/1xNRsBOBiUDKEodIGDfb1yw9utrY-OFbk/view?usp=share_link" download>
+                        Resume<ion-icon name="download-outline"></ion-icon>
+                        </a>
                     </li>
                 </ul>
             </div>
-            </div>
-
-            {/* Home */}
-            <div id="home">
-                <h1>Hello, my name is Rishabh Vishwakarma And I'm a Full Stack <span style={{color:"black"}}>Web Developer</span></h1>
-                <img src="https://avatars.githubusercontent.com/u/107476003?v=4"  alt="img" />
             </div>
         </>
     );
