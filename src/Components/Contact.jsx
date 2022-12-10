@@ -9,7 +9,7 @@ export function Contact ()
                     <div>
                         <input type="text"  placeholder="Enter your name" />
                         <input type="email" placeholder="Enter email address" />
-                        <input placeholder="Enter your message ..." id="description-msg"/>
+                        <textarea name="messege" id="text-area" placeholder="...."></textarea>
                     </div>
                     <div>
                         <button>Send Message <ion-icon name="send" ></ion-icon></button>
