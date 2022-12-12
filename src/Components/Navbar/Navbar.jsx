@@ -19,6 +19,7 @@ const Navbar = ()=>
                         <li><Link to="about-me" spy={true} smooth={true}>About me</Link></li>
                         <li><Link to="skills" spy={true} smooth={true}>Skills</Link></li>
                         <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+                        <li><Link to="github_section" spy={true} smooth={true}>Github Stats</Link></li>
                         <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                     </ul>
                 </div>
@@ -39,6 +40,7 @@ const Navbar = ()=>
                     <li><Link to="about-me" spy={true} smooth={true}>About me</Link></li>
                     <li><Link to="skills" spy={true} smooth={true}>Skills</Link></li>
                     <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+                    <li><Link to="github_section" spy={true} smooth={true}>Github Stats</Link></li>
                     <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                     <li>
                         <a target={"blank"} href="https://drive.google.com/file/d/1xNRsBOBiUDKEodIGDfb1yw9utrY-OFbk/view?usp=share_link" download>

@@ -1,6 +1,7 @@
 import { About } from "./Components/About";
-import { Calender } from "./Components/Calender";
+// import { Calender } from "./Components/Calender";
 import { Contact } from "./Components/Contact";
+import GitHubStats from "./Components/GitHubStats";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import { Projects } from "./Components/Projects";
@@ -14,7 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
-      <Calender/>
+      <GitHubStats/>
       <Contact/>
     </div>
   );

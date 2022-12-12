@@ -5,17 +5,18 @@ body, a{
     color: #023e49;
     background-color: rgb(228, 228, 228);
     text-decoration: none;
-    /* font-weight: 100; */
-    /* overflow-x: hidden; */
+
+}
+body::-webkit-scrollbar { 
+  display: none;
 }
 
 .n-wrapper {
-    /* border: 1px solid; */
     position: sticky;
     background-color: rgb(228, 228, 228);
     z-index: 1;
     top: 0;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
@@ -99,7 +100,7 @@ body, a{
   .mobile-menu{
     display: none;
     position: absolute;
-    top: 1;
+    top: 33px;
     left: 0;
     height: calc(50vh);
     width: 100%;
@@ -197,7 +198,7 @@ body, a{
     padding: 5vh 3vw;
   }
 
-  #about-me > h1, #skills > h1, #contact > h1, #projects > h1, #calender > h1{
+  #about-me > h1, #skills > h1, #contact > h1, #projects > h1, .section_heading{
     text-align: center;
     margin-bottom: 7vh;
     text-decoration: underline;
@@ -254,6 +255,10 @@ body, a{
 
 
   /* projects */
+  #projects{
+    margin: 2vh 0 10vh 0;
+  }
+
   #projects-items{
     display: flex;
     justify-content: space-between;
@@ -302,9 +307,24 @@ body, a{
 
 
 
-  /* calender */
+  /* github stats */
+  #github_section{
+    margin: 2vh 0 10vh 0;
+  }
+  .section_heading{
+    font-size: 32px;
+  }
+  .stats_container img, #calender{
+    width: 48rem;
+    display: block;
+    margin: auto;
+  }
   #calender{
-    /* border:1px solid; */
+    width: 46.5rem;
+    margin-bottom: 5vh;
+    border: 1px solid #023e49;
+    border-radius: 10px;
+    padding: 1vh 1vw;
   }
 
 
@@ -396,11 +416,13 @@ body, a{
     }
 
     #home>h1{
-      font-size: 5vw;
+      font-size: 4.8vw;
+      padding-top: 2rem;
     }
   
     #home>img{
-      width: 30vw;
+      width: 290px;
+      margin: 2.5rem 0
     }
 
 
@@ -448,17 +470,30 @@ body, a{
     }
     
   
+    /* github stats */
+    .stats_container img, #calender{
+      width: 95%;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+    #calender{
+      width: 92%;
+      margin-bottom: 2vh;
+      border: 1px solid #023e49;
+      padding: 1vh 1vw;
+    }
 
 
     /* Contact */
     #div-form  input{
-      width: 90%;
+      width: 93%;
     }
     #div-form button{
-      width: 90%;
+      width: 93%;
     }
     #text-area{
-      width: 90%;
+      width: 93%;
     }
   
   }
