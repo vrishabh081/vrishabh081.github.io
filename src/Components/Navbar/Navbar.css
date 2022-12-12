@@ -124,23 +124,33 @@ body::-webkit-scrollbar {
   }
   /* **************  Home  ***************** */
   #home{
+    display: block;
+  }
+  #home> div{
     display: flex;
     width: 95%;
     margin: auto;
     justify-content: space-between;
   }
 
-  #home>h1{
+  #home > div >h1{
     display: block;
     font-size: 3.5vw;
     padding-top: 5rem;
   }
 
-  #home>img{
+  #home > div >img{
     border-radius: 50%;
     width: 25vw;
     border: 2px solid #E11D48;
     margin: 5rem 0;
+  }
+  #resume-home a{
+    margin: auto;
+    display: block;
+  }
+  #resume-home a button{
+    font-size: 25px;
   }
 
   /* animation home  */
@@ -412,17 +422,24 @@ body::-webkit-scrollbar {
     /* Home */
     #home{
       display: block;
+    }
+    #home> div{
+      display: block;
       text-align: center;
     }
 
-    #home>h1{
+    #home> div>h1{
       font-size: 4.8vw;
       padding-top: 2rem;
     }
   
-    #home>img{
+    #home> div>img{
       width: 290px;
       margin: 2.5rem 0
+    }
+    #resume-home{
+      display: block;
+      background-color: black;
     }
 
 
