@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Fashion from "../Images/Fashion.png";
 import Espn from "../Images/Espn.png";
+import mywardrobe from "../Images/mywardrobe.png";
 import PluralSight from "../Images/PluralSight.png";
 
 export function Projects()
@@ -16,6 +17,21 @@ export function Projects()
         <>
             <div id="projects">
                 <h1>My Projects</h1>
+                <div id="projects-items" data-aos="fade-up">
+                    <div>
+                        <h3 className="head-name">My Wardrobe</h3>
+                        <p>This site basically belong to women as it contains all products related to women need such as makeup, carry bags, purse, footwears etc from lipstick to hair dryer, from top wear to sandals.</p>
+                        <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : ReactJs, Redux, Chakra-UI, JavaScript, HTML and CSS</p>
+                        <div id="icons">
+                            <a href="https://clever-nougat-a72f71.netlify.app/"><ion-icon name="eye"></ion-icon></a>
+                            <a href="https://github.com/mohitd427/erratic-dolls-5259"><ion-icon name="logo-github"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div id="image-div">
+                        <img src={mywardrobe} alt="" />
+                    </div>
+                </div>
+
                 <div id="projects-items" data-aos="fade-up">
                     <div>
                         <h3 className="head-name">Fashion Collection</h3>
