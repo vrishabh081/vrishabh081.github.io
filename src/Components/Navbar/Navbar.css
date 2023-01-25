@@ -100,10 +100,10 @@ body::-webkit-scrollbar {
   .mobile-menu{
     display: none;
     position: absolute;
-    top: 33px;
-    left: 0;
+    top: 29px;
+    right: 0;
     height: calc(50vh);
-    width: 100%;
+    width: 90%;
     padding: 0;
     padding-top: 10vh;
     background-color: rgb(228, 228, 228);
@@ -122,9 +122,13 @@ body::-webkit-scrollbar {
     color: #023e49;
     background-color: rgb(228, 228, 228);
   }
+
+
+
   /* **************  Home  ***************** */
   #home{
     display: block;
+    height: 100vh;
   }
   #home> div{
     display: flex;
@@ -135,19 +139,21 @@ body::-webkit-scrollbar {
 
   #home > div >h1{
     display: block;
-    font-size: 3.5vw;
+    font-size: 2.5em;
     padding-top: 5rem;
+    line-height: 1.5em;
   }
 
   #home > div >img{
     border-radius: 50%;
-    width: 25vw;
+    width: 300px;
     border: 2px solid #E11D48;
     margin: 5rem 0;
   }
   #resume-home a{
     margin: auto;
     display: block;
+    margin-top: 5em;
   }
   #resume-home a button{
     font-size: 25px;
@@ -156,7 +162,7 @@ body::-webkit-scrollbar {
   /* animation home  */
 
   #home span{
-    font-size: 4.5vw;
+    font-size: 1.2em;
     animation-name: myanim;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -210,7 +216,7 @@ body::-webkit-scrollbar {
 
   #about-me > h1, #skills > h1, #contact > h1, #projects > h1, .section_heading{
     text-align: center;
-    margin-bottom: 7vh;
+    margin: 1em 0 2em 0;
     text-decoration: underline;
     text-underline-offset: 1.5vh;
     text-decoration-color: #E11D48;
@@ -220,6 +226,10 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     margin: auto;
+  }
+
+  .description{
+    font-size: 15px;
   }
 
   #about-me> div :nth-child(1){
@@ -405,7 +415,7 @@ body::-webkit-scrollbar {
 
 
   /* media screen */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 960px) {
     .n-list {
       display: none;
     }
@@ -429,13 +439,13 @@ body::-webkit-scrollbar {
     }
 
     #home> div>h1{
-      font-size: 4.8vw;
-      padding-top: 2rem;
+      font-size: 1.8em;
+      margin-top: -1em;
     }
   
     #home> div>img{
-      width: 290px;
-      margin: 2.5rem 0
+      width: 250px;
+      margin: 2.5rem 0;
     }
     #resume-home{
       display: block;
@@ -468,6 +478,12 @@ body::-webkit-scrollbar {
       width: 95%;
       text-align: center;
       border-radius: 10px;
+    }
+    .dot{
+      display: inline-block;
+      width: 95%;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
     }
     #projects-items p{
       line-height: 22px;
@@ -513,4 +529,46 @@ body::-webkit-scrollbar {
       width: 93%;
     }
   
+  }
+
+
+
+  @media screen and (max-width:480px) {
+    #about-me > h1, #skills > h1, #contact > h1, #projects > h1, .section_heading{
+      font-size: 20px;
+    }
+    .head-name{
+      font-size: 18px;
+      font-weight: normal;
+    }
+    .head-name p{
+      font-size: 15px;
+      font-weight: normal;
+    }
+    .description{
+      font-size: 15px;
+    }
+
+    /* Home */
+    #home> div>h1{
+      font-size: 1.2em;
+      margin-top: -1em;
+    }
+  
+    #home> div>img{
+      width: 200px;
+      margin: 2.5rem 0;
+    }
+    #resume-home{
+      display: block;
+      background-color: black;
+    }
+    
+  /* github stats */
+    .stats_container img, #calender{
+      width: 93%;
+    }
+    #calender{
+      width: 90%;
+    }
   }

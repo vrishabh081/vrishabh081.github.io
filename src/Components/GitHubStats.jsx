@@ -32,13 +32,14 @@ const GitHubStats = () => {
       <div>
         <div id="calender" data-aos="fade-up">
           <GitHubCalendar
+            id="calender-r"
             style={{ margin: "auto" }}
-            blockSize={16}
+            blockSize={15}
             fontSize={14}
             blockMargin={4}
             blockRadius={6}
             username="vrishabh081"
-            transformData={selectLastHalfYear}
+            // transformData={selectLastHalfYear}
           >
             <ReactTooltip delayShow={20} html />
           </GitHubCalendar>

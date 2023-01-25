@@ -20,7 +20,7 @@ export function Projects()
                 <div id="projects-items" data-aos="fade-up">
                     <div>
                         <h3 className="head-name">My Wardrobe</h3>
-                        <p>This site basically belong to women as it contains all products related to women need such as makeup, carry bags, purse, footwears etc from lipstick to hair dryer, from top wear to sandals.</p>
+                        <p>This website contains all products related to women fashion </p>
                         <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : ReactJs, Redux, Chakra-UI, JavaScript, HTML and CSS</p>
                         <div id="icons">
                             <a href="https://clever-nougat-a72f71.netlify.app/"><ion-icon name="eye"></ion-icon></a>
@@ -35,7 +35,7 @@ export function Projects()
                 <div id="projects-items" data-aos="fade-up">
                     <div>
                         <h3 className="head-name">Fashion Collection</h3>
-                        <p>A fashion collection website where you get a collection of men's, women's and kids' clothing.</p>
+                        <p>A fashion collection website where you can find and purchase clothing items</p>
                         <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : ReactJs, JavaScript, HTML and CSS</p>
                         <div id="icons">
                             <a href="https://fashion-collection.vercel.app/"><ion-icon name="eye"></ion-icon></a>
@@ -50,7 +50,7 @@ export function Projects()
                     <div>
                         <h3 className="head-name">ESPN cricinfo</h3>
                         <p>A cricket news website that also contains a fantasy page and scoring page.</p>
-                        <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : JavaScript, HTML and CSS</p>
+                        <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : JavaScript, Json-server, HTML and CSS</p>
                         <div id="icons">
                             <a href="https://fashion-collection.vercel.app/"><ion-icon name="eye"></ion-icon></a>
                             <a href="https://github.com/vrishabh081/important-fog-2987"><ion-icon name="logo-github"></ion-icon></a>
