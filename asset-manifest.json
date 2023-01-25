@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f277900.css",
-    "main.js": "/static/js/main.8d481851.js",
+    "main.css": "/static/css/main.0af3ee35.css",
+    "main.js": "/static/js/main.dee04337.js",
     "static/media/mywardrobe.png": "/static/media/mywardrobe.5522233dc5c1213f96b0.png",
     "static/media/Espn.png": "/static/media/Espn.93327d8d42b2a48d084e.png",
     "static/media/PluralSight.png": "/static/media/PluralSight.844db1d52cd505b37c4f.png",
+    "static/media/Rishabh_Vishwakarma_Resume.pdf": "/static/media/Rishabh_Vishwakarma_Resume.e966f079db819103c21a.pdf",
     "static/media/Fashion.png": "/static/media/Fashion.56569ed41021eac652fd.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.6f277900.css.map": "/static/css/main.6f277900.css.map",
-    "main.8d481851.js.map": "/static/js/main.8d481851.js.map"
+    "main.0af3ee35.css.map": "/static/css/main.0af3ee35.css.map",
+    "main.dee04337.js.map": "/static/js/main.dee04337.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f277900.css",
-    "static/js/main.8d481851.js"
+    "static/css/main.0af3ee35.css",
+    "static/js/main.dee04337.js"
   ]
 }
