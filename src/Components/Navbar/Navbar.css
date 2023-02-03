@@ -146,9 +146,9 @@ body::-webkit-scrollbar {
 
   #home > div >img{
     border-radius: 50%;
-    width: 300px;
+    width: 350px;
     border: 2px solid #E11D48;
-    margin: 5rem 0;
+    margin: 5rem 0 2rem 0;
   }
   #resume-home a{
     margin: auto;
@@ -550,14 +550,18 @@ body::-webkit-scrollbar {
     }
 
     /* Home */
+    #home{
+      display: block;
+      height: 80vh;
+    }
     #home> div>h1{
       font-size: 1.2em;
       margin-top: -1em;
     }
   
     #home> div>img{
-      width: 200px;
-      margin: 2.5rem 0;
+      width: 40vw;
+      margin-top: 2rem 0;
     }
     #resume-home{
       display: block;
