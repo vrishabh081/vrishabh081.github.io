@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0af3ee35.css",
-    "main.js": "/static/js/main.dee04337.js",
+    "main.css": "/static/css/main.82e33243.css",
+    "main.js": "/static/js/main.52b2556a.js",
+    "static/media/mypic.png": "/static/media/mypic.85fd6e155f1d643383a8.png",
     "static/media/mywardrobe.png": "/static/media/mywardrobe.5522233dc5c1213f96b0.png",
     "static/media/Espn.png": "/static/media/Espn.93327d8d42b2a48d084e.png",
     "static/media/PluralSight.png": "/static/media/PluralSight.844db1d52cd505b37c4f.png",
@@ -11,11 +12,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.0af3ee35.css.map": "/static/css/main.0af3ee35.css.map",
-    "main.dee04337.js.map": "/static/js/main.dee04337.js.map"
+    "main.82e33243.css.map": "/static/css/main.82e33243.css.map",
+    "main.52b2556a.js.map": "/static/js/main.52b2556a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0af3ee35.css",
-    "static/js/main.dee04337.js"
+    "static/css/main.82e33243.css",
+    "static/js/main.52b2556a.js"
   ]
 }
