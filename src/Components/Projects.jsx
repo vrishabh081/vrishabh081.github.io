@@ -39,7 +39,7 @@ export function Projects()
                         <img src={Merchanto} alt="" />
                     </div>
                 </div>
-                <div id="projects-items" data-aos="fade-up">
+                {/* <div id="projects-items" data-aos="fade-up">
                     <div>
                         <h3 className="head-name">Step Adding</h3>
                         <p>Hi, in this project, we are solving a real life problem. Here, we are calculating carry and printing sum step by step.</p>
@@ -52,7 +52,7 @@ export function Projects()
                     <div id="image-div">
                         <img src={StepAdding} alt="" />
                     </div>
-                </div>
+                </div> */}
                 <div id="projects-items" data-aos="fade-up">
                     <div>
                         <h3 className="head-name">My Wardrobe</h3>
