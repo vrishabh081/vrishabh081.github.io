@@ -283,7 +283,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-bottom: 4vh;
+    margin-bottom: 3rem;
     background-color: #023e49;
     color: white;
     width: 48rem;
@@ -295,6 +295,7 @@ body::-webkit-scrollbar {
     margin-bottom: -6px;
     width: 400px;
     height: 100%;
+    border-bottom: 1px solid grey;
   }
   #image-div{
     width: 400px;
@@ -472,7 +473,7 @@ body::-webkit-scrollbar {
     #projects-items{
       display: block;
       margin: auto;
-      margin-bottom: 4vh;
+      margin-bottom: 3rem;
       background-color: #023e49;
       color: white;
       width: 95%;
