@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.005700cc.css",
-    "main.js": "/static/js/main.8ef26b3c.js",
-    "static/media/mypic.png": "/static/media/mypic.85fd6e155f1d643383a8.png",
+    "main.js": "/static/js/main.0afc27d2.js",
     "static/media/mywardrobe.png": "/static/media/mywardrobe.5522233dc5c1213f96b0.png",
+    "static/media/mypic.png": "/static/media/mypic.01f2dead752f0d6ac801.png",
     "static/media/Espn.png": "/static/media/Espn.93327d8d42b2a48d084e.png",
     "static/media/Merchanto.png": "/static/media/Merchanto.a66de0286def9d59445f.png",
     "static/media/Rishabh_Vishwakarma_Resume.pdf": "/static/media/Rishabh_Vishwakarma_Resume.e966f079db819103c21a.pdf",
@@ -14,10 +14,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.005700cc.css.map": "/static/css/main.005700cc.css.map",
-    "main.8ef26b3c.js.map": "/static/js/main.8ef26b3c.js.map"
+    "main.0afc27d2.js.map": "/static/js/main.0afc27d2.js.map"
   },
   "entrypoints": [
     "static/css/main.005700cc.css",
-    "static/js/main.8ef26b3c.js"
+    "static/js/main.0afc27d2.js"
   ]
 }
