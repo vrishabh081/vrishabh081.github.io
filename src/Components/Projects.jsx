@@ -6,6 +6,7 @@ import Espn from "../Images/Espn.png";
 import mywardrobe from "../Images/mywardrobe.png";
 import StepAdding from "../Images/StepAdding.png";
 import Merchanto from "../Images/Merchanto.png";
+import KanpurAcademy from "../Images/kanpurClass.png";
 
 let porjects = [
     {
@@ -27,16 +28,16 @@ export function Projects()
                 <h1>My Projects</h1>
                 <div id="projects-items" data-aos="fade-up">
                     <div>
-                        <h3 className="head-name">Merchanto</h3>
-                        <p>This project is clone of Meesho E-commerce site. This site basically belong to all category as it contains all products related to men, women and kid.</p>
-                        <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : React.js, Javascript, Redux, Node.js, Express.js, MongoDB, Chakra UI, NPM Packages</p>
+                        <h3 className="head-name">Kanpur Academy</h3>
+                        <p>Here, we are solving a real-life problem which exists in school. Like - We can take a student's admission and print a pdf.</p>
+                        <p style={{marginTop:"15px", fontSize:"17px"}}> <span className="tech-stack">Tech Stack</span> : React.js, Javascript, Redux, Node.js, Express.js, MongoDB, NPM Packages</p>
                         <div id="icons">
-                            <a href="https://merchanto.netlify.app/" target={"_blank"}><ion-icon name="eye"></ion-icon></a>
-                            <a href="https://github.com/saurabhsinghmehta/skillful-shirt-5398" target={"_blank"}><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="https://kanpur-academy.web.app/" target={"_blank"}><ion-icon name="eye"></ion-icon></a>
+                            <a href="https://github.com/vrishabh081/Kanpur-Academy" target={"_blank"}><ion-icon name="logo-github"></ion-icon></a>
                         </div>
                     </div>
                     <div id="image-div">
-                        <img src={Merchanto} alt="" />
+                        <img src={KanpurAcademy} alt="" />
                     </div>
                 </div>
                 <div id="projects-items" data-aos="fade-up">
