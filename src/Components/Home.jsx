@@ -11,7 +11,7 @@ function Home()
                 <img src={mypic}  alt="mypic" />
             </div>
             <div id="resume-home" >
-                <a href="https://drive.google.com/file/d/1xNRsBOBiUDKEodIGDfb1yw9utrY-OFbk/view?usp=share_link" target={"blank"} download>
+                <a href="https://drive.google.com/file/d/18qcCq-xsns99NmwgLFs-KZC1ucsiA8vO/view?usp=share_link" target={"blank"} download>
                     <button className="n-button" style={{textAlign:'center'}} >
                         Resume<ion-icon name="download-outline"></ion-icon>  
                     </button>

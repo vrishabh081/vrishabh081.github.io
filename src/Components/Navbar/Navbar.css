@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
     background-color: rgb(228, 228, 228);
     z-index: 1;
     top: 0;
-    height: 8vh;
+    height: 4.5rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
@@ -89,7 +89,7 @@ body::-webkit-scrollbar {
   }
 
   .open .mobile-menu{
-    height: 85vh;
+    height: 100vh;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -100,13 +100,14 @@ body::-webkit-scrollbar {
   .mobile-menu{
     display: none;
     position: absolute;
-    top: 29px;
-    right: 0;
+    top: 3.5rem;
+    right: -50%;
     height: calc(50vh);
-    width: 90%;
+    width: 80%;
     padding: 0;
     padding-top: 10vh;
     background-color: rgb(228, 228, 228);
+    transition: all 1s linear;
   }
 
   .mobile-menu > li{
@@ -427,6 +428,12 @@ body::-webkit-scrollbar {
 
     #hamburger-icon{
         display: block;
+        margin-right: 1rem;
+    }
+
+    .mobile-menu{
+      right: 0;
+      transition: all 1s linear;
     }
 
 
